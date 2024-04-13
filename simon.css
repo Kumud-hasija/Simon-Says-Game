@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family :system-ui;
+    font-size: xx-large;
+    color: indigo;
+}
+
+#outer{
+    height : 300px;
+    width  : 300px;
+    border : 5px black solid;
+    border-radius: 50%;
+    display : flex ;
+    margin : auto ;
+}
+
+.first {
+    background-color: red;
+    height : 150px ;
+    width : 150px ;
+    font-weight: 600;
+    font-size: larger;
+    border-top-left-radius: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second{
+    background-color: yellow;
+    height : 150px ;
+    width : 150px ;
+    font-weight: 600;
+    font-size: larger;
+    border-bottom-left-radius: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third {
+    background-color: blue;
+    height : 150px ;
+    width : 150px ;
+    border-top-right-radius: 100%;
+    font-weight: 600;
+    font-size: larger;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.forth {
+    background-color: green;
+    height : 150px ;
+    width : 150px ;
+    font-weight: 600;
+    font-size: larger;
+    border-bottom-right-radius: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simon {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px ;
+    position:absolute;
+    transform : translate(-45%,-45%);
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 150px;
+
+}
+
+.flash {
+    background-color: aliceblue;
+}
+
+.userflash {
+    background-color: black;
+}
